@@ -1,0 +1,160 @@
+body{
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+}
+
+:root {
+ --iris: #4D5AE5;
+ --NAVY-BLUE: #2E2F42;
+ --WHITE: #fff;
+ --SLATE:#434455;
+  }
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+/*HEADER*/
+header{
+background-color: white;
+text-align: center;
+}
+
+.logo{
+color: var(--iris);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; 
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
+
+.logo-text{
+color: var(--NAVY-BLUE);
+}
+
+.header-link{
+color: var(--NAVY-BLUE);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
+.contacts-link{
+color: var(--SLATE);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
+/*SECTION 1*/
+
+.hero{
+background-color:var(--NAVY-BLUE);
+}
+
+.hero-text{
+color: var(--WHITE);
+text-align: center;
+font-family: Roboto;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 1.12px;
+}
+
+.hero-btn{
+color: var(--WHITE);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.64px;
+background-color: var(--iris);
+}
+
+/*Section 2*/
+
+.page-info{
+    background-color: var(--WHITE);
+}
+
+.page-info-item-title{
+    color: var(--NAVY-BLUE);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.4px;
+}
+
+.page-info-item-dscr{
+    color: var(--SLATE);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.32px;
+}
+
+/*Section 3*/
+
+.wwd-info{
+    background-color: var(--WHITE);
+    width: 1440px;
+height: 2592px;
+}
+
+.wwd-info-title{
+    color: var(--NAVY-BLUE);
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+.wwd-info-list{
+    background: #FFF;
+}
+
+.wwd-info-item{
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+height: 300px;
+}
+
+/*Section 4*/
+
+
+
+
+/*.filters-btn{
+color: var(--WHITE);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; 
+letter-spacing: 0.64px;
+}
+*/
