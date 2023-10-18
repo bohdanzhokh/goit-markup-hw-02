@@ -10,7 +10,8 @@ body {
   --NAVY-BLUE: #2e2f42;
   --WHITE: #fff;
   --SLATE: #434455;
-  --CLOUD: var(--CLOUD);
+  --CLOUD: #f4f4fd;
+  --hover-link: #404bbf;
 }
 
 .link {
@@ -42,6 +43,11 @@ header {
   color: var(--NAVY-BLUE);
 }
 
+.header-item:hover .header-link,
+.header-item:focus .header-link {
+  color: var(--hover-link);
+}
+
 .header-link {
   color: var(--NAVY-BLUE);
   font-family: Roboto;
@@ -50,6 +56,15 @@ header {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-item:hover .contacts-link,
+.contacts-item:focus .contacts-link {
+  color: var(--hover-link);
 }
 
 .contacts-link {
@@ -75,19 +90,24 @@ header {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .hero-btn {
   color: var(--WHITE);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
   background-color: var(--iris);
+  cursor: pointer;
+}
+
+.hero-brn:hover .hero-brn:focus {
+  background-color: var(--hover-link);
 }
 
 /*Section 2*/
@@ -129,23 +149,19 @@ header {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
 .wwd-info-list {
-  background: #fff;
-}
-
-.wwd-info-item {
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-color: var(--WHITE);
 }
 
 /*Section 4*/
 
 .our-team {
-  background: var(--CLOUD);
+  background-color: var(--CLOUD);
 }
 
 .our-team-title {
@@ -155,21 +171,22 @@ header {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
 .our-team-list {
   flex-shrink: 0;
+  background-color: var(--WHITE);
 }
 
 .our-team-list-item {
-  background: var(--WHITE, #fff);
+  background: var(--WHITE);
 }
 
 .our-team-item-title {
-  color: var(--NAVY-BLUE, #2e2f42);
+  color: var(--NAVY-BLUE);
   text-align: center;
   font-family: Roboto;
   font-size: 20px;
