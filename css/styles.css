@@ -43,8 +43,8 @@ header {
   color: var(--NAVY-BLUE);
 }
 
-.header-item:hover,
-.header-item:focus{
+.header-link:hover,
+.header-link:focus{
   color: var(--hover-link);
 }
 
@@ -62,8 +62,8 @@ header {
   font-style: normal;
 }
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--hover-link);
 }
 
