@@ -225,8 +225,8 @@ header {
   text-transform: uppercase;
 }
 
-.footer-logo-text{
-    color: var(--CLOUD)
+.footer-logo-text {
+  color: var(--CLOUD);
 }
 
 .footer-text {
@@ -239,3 +239,36 @@ header {
   letter-spacing: 0.32px;
 }
 
+/*MAIN PORTFOLIO*/
+.filters-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--CLOUD);
+  cursor: pointer;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  color: var(--WHITE);
+  background-color: var(--hover-link);
+}
+
+/*MAIN CARDS*/
+
+.cards-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+}
+
+.cards-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--SLATE);
+}
