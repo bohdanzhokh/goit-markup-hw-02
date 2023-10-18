@@ -106,8 +106,8 @@ header {
   cursor: pointer;
 }
 
-.hero-brn:hover,
-.hero-brn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--hover-link);
 }
 
@@ -182,7 +182,7 @@ header {
   background-color: var(--WHITE);
 }
 
-.our-team-list-item {
+.our-team-item {
   background-color: var(--WHITE);
 }
 
@@ -225,6 +225,10 @@ header {
   text-transform: uppercase;
 }
 
+.footer-logo-text{
+    color: var(--CLOUD)
+}
+
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
   font-family: Roboto;
@@ -235,14 +239,3 @@ header {
   letter-spacing: 0.32px;
 }
 
-/*.filters-btn{
-color: var(--WHITE);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; 
-letter-spacing: 0.64px;
-}
-*/
